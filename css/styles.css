@@ -51,7 +51,7 @@ margin: 0;
 }
 .link-studio::after{
     content:''
-    position: absolute;
+    position:absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
