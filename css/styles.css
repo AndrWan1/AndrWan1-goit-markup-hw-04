@@ -392,9 +392,6 @@ align-items: center;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.social-box{
-    
-}
 .footer-social-text{
     font-weight: 500;
     font-size: 16px;
@@ -439,4 +436,51 @@ align-items: center;
 }
 .footer-logo-box{
     margin-right: 120px
+}
+.fotter-container-form{
+
+}
+.footer-text-form{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer-form{
+    display: flex;
+}
+.footer-label-form{
+    gap: 24px;
+}
+.footer-form-email{
+width: 264px;
+height: 40px;
+border: 1px solid #ffffff;
+background-color: transparent;
+font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+padding-left: 16px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+color: #ffffff;
+}
+input::placeholder {
+    color: color #ffffff;;
+}
+.footer-form-btn{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
 }
